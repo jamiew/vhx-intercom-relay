@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (1.0.2)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.2)
+      faraday (>= 0.7.4, < 0.10)
+    intercom (3.5.1)
+      json (~> 1.8)
+    json (1.8.3)
+    multipart-post (2.0.0)
+    vcr (2.9.3)
+    vhx-ruby (0.0.6)
+      faraday (~> 0.9.1)
+      faraday_middleware (~> 0.9.1)
+      vcr (~> 2.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  intercom
+  vhx-ruby
+
+BUNDLED WITH
+   1.11.2
