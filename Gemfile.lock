@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/vhx/vhx-ruby
+  revision: c56df3b397c6e9d41b8ff04d1730a92cb37523e1
+  branch: silence-faraday-logging
+  specs:
+    vhx-ruby (0.0.6)
+      faraday (~> 0.9.1)
+      faraday_middleware (~> 0.9.1)
+      vcr (~> 2.9.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,10 +21,6 @@ GEM
     json (1.8.3)
     multipart-post (2.0.0)
     vcr (2.9.3)
-    vhx-ruby (0.0.6)
-      faraday (~> 0.9.1)
-      faraday_middleware (~> 0.9.1)
-      vcr (~> 2.9.3)
 
 PLATFORMS
   ruby
@@ -22,7 +28,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   intercom
-  vhx-ruby
+  vhx-ruby!
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
